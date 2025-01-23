@@ -8,7 +8,7 @@ const PORT = 3000;
 
 // Setup __dirname
 const __filename = fileURLToPath(import.meta.url);
-const __dirname = path.dirname(__filename);
+const __dirname = path.dirname(__filename); 
 
 // Middleware
 app.use(bodyParser.urlencoded({ extended: true }));
